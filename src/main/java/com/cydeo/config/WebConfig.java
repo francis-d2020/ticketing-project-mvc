@@ -5,6 +5,8 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
+//this class  is used to start the views that only show data by using WebMvcConfigurer interface
+//we add in the method the endpoint and the suitable view.
 public class WebConfig implements WebMvcConfigurer {
 
     @Override
